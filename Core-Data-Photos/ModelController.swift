@@ -11,8 +11,8 @@ import UIKit
 import CoreData
 
 class ModelController{
-    
-    let shared = ModelController()
+
+    static let shared = ModelController()
 
     let entityName = "StoredImage"
 
@@ -34,7 +34,7 @@ class ModelController{
             savedObjects = try managedContext.fetch(imageObjectRequest)
             
             images.removeAll()
-            
+                
             for imageObject in savedObjects {
                 let savedImageObject = imageObject as! StoredImage
                 

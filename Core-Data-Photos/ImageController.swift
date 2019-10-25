@@ -11,6 +11,11 @@ import UIKit
 
 class ImageController {
     
+    static let shared = ImageController()
+
+    let fileManager = FileManager.default
+    let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+    
 func saveImage(image: UIImage) -> String? {
     let date = String( Date.timeIntervalSinceReferenceDate )
     let imageName = date.replacingOccurrences(of: ".", with: "-") + ".png"
@@ -74,13 +79,4 @@ func saveImage(image: UIImage) -> String? {
     }
 }
 
-
-
-
-//IMAGE CONTROLLER STUFF
-
-let shared = ImageController()
-
-let fileManager = FileManager.default
-let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
 
