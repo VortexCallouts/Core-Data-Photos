@@ -16,6 +16,8 @@
 		4D7A799A23635208007600C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7A799823635208007600C4 /* LaunchScreen.storyboard */; };
 		4D7A79A523635208007600C4 /* Core_Data_PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A79A423635208007600C4 /* Core_Data_PhotosTests.swift */; };
 		4D7A79B023635208007600C4 /* Core_Data_PhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A79AF23635208007600C4 /* Core_Data_PhotosUITests.swift */; };
+		4D7A79C023639D81007600C4 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A79BF23639D81007600C4 /* ImageController.swift */; };
+		4D7A79C223639F8C007600C4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A79C123639F8C007600C4 /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4D7A79AB23635208007600C4 /* Core-Data-PhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-Data-PhotosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7A79AF23635208007600C4 /* Core_Data_PhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_PhotosUITests.swift; sourceTree = "<group>"; };
 		4D7A79B123635208007600C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7A79BF23639D81007600C4 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		4D7A79C123639F8C007600C4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		4D7A797E23635206007600C4 = {
 			isa = PBXGroup;
 			children = (
+				4D7A79C123639F8C007600C4 /* ModelController.swift */,
+				4D7A79BF23639D81007600C4 /* ImageController.swift */,
 				4D7A798923635206007600C4 /* Core-Data-Photos */,
 				4D7A79A323635208007600C4 /* Core-Data-PhotosTests */,
 				4D7A79AE23635208007600C4 /* Core-Data-PhotosUITests */,
@@ -270,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7A79C023639D81007600C4 /* ImageController.swift in Sources */,
 				4D7A799023635206007600C4 /* Core_Data_Photos.xcdatamodeld in Sources */,
 				4D7A798B23635206007600C4 /* AppDelegate.swift in Sources */,
+				4D7A79C223639F8C007600C4 /* ModelController.swift in Sources */,
 				4D7A799223635206007600C4 /* ContentView.swift in Sources */,
 				4D7A798D23635206007600C4 /* SceneDelegate.swift in Sources */,
 			);
